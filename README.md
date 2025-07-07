@@ -117,7 +117,7 @@ MindMate leverages a robust, multi-server architecture for performance, scalabil
 - **Homepage**  
   ![Homepage](https://github.com/algovengers/MindMate/assets/126336384/c7810ff6-73e2-4b17-bbd3-1f5c3761febf)
 - **Login**  
-  ![Login](https://github.com/algovengers/MindMate/assets/126336384/e3413eee-e202-4462-bc96-7a52eb0a1a72)
+  ![Login][(https://github.com/algovengers/MindMate/assets/126336384/e3413eee-e202-4462-bc96-7a52eb0a1a72](https://private-user-images.githubusercontent.com/126336384/294266217-e3413eee-e202-4462-b0e1-2b9243924944.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTE4NzA0MzEsIm5iZiI6MTc1MTg3MDEzMSwicGF0aCI6Ii8xMjYzMzYzODQvMjk0MjY2MjE3LWUzNDEzZWVlLWUyMDItNDQ2Mi1iMGUxLTJiOTI0MzkyNDk0NC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwN1QwNjM1MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYmVkYWJkZjg1YjdiOTk3Yzg3M2NjMDA2YTkyYzYyZTgyMmVhZjc1NTM5MTk2MjAzODhlYmU3NmM0NmMyMmNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.d5kCP9V7gFFxoPASaaZ-nj_GbaUSX-EhVn79lSb5wLA))
 - **Analysis**  
   ![Analysis 1](https://github.com/algovengers/MindMate/assets/126336384/a6145724-1519-4073-9b43-17f308494b68)  
   ![Analysis 2](https://github.com/algovengers/MindMate/assets/126336384/cbdb3501-5a2c-4c2e-ae05-bf25973aa334)
