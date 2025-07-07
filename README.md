@@ -1,117 +1,78 @@
-# MindMate  
-## Elevating Mental Health with AI
+# MindMate
+## A mental health chat assistant
 
----
+#### Deploy Link : [MindMate](https://mind-mate-wellness.vercel.app/)
+#### Youtube Link : [MindMate Youtube Explanation](https://www.youtube.com/watch?v=fUD5HcZhtQI)
 
-## Introducing MindMate
+#### Our project MindMate got **1st Position** 😀 in it 👇️
+#### Devfolio Link : [MindMate Hackathon Project Link](https://devfolio.co/projects/mind-mate-a-mental-health-chat-assistant-1b96)
 
-**MindMate** is an AI-powered mental health chat assistant designed to guide, support, and empower users on their journey to better mental well-being. With a user-friendly interface, MindMate offers personalized guidance, insightful analysis, and curated resources—all in one secure, accessible platform.
 
----
+Mindmate is a mental health **AI** powered chat assistant that guides and helps you to improve your mental health.
+Mindmate website provides a user-friendly UI to learn about mental health.
 
-## Why Choose MindMate?
+## Features
 
-- **AI-Powered Chat Assistant:** Get immediate, empathetic support for your mental health questions.
-- **Longitudinal Mental Health Analysis:** Track your well-being over time with detailed reporting.
-- **Graphical Insights:** Visualize your mental health status and progress.
-- **Curated Articles:** Access editor-compiled resources to learn about mental health topics.
-- **Personalized Email Suggestions:** Receive regular, actionable tips to improve your mental health.
+- AI chat assistant to take guidance about mental health.
+- Analyse your mental health over a period of time.
+- Get an Indication about your mental health condition with a graphical visualization.
+- Editor's compiled articles to read and educate about mental health problems.
+- Get emails from time to time with suggestions to improve your mental health.
 
----
 
-## Recognition
 
-**🏆 Recognized at H2AI Georgetown University Hackathon**
+## Tech
 
----
+#### System Design
+MindMate application runs on 4 server
+- Frontend
+- Backend
+- WebSocket Server
+- Email Server
+![des](https://github.com/algovengers/MindMate/assets/126336384/bc6c71c9-017f-49c9-9770-ee10164fe88b)
 
-## Experience MindMate
-
-- **Live Deployment:** [https://mind-mate-wellness.vercel.app](https://mind-mate-wellness.vercel.app)
-- **Watch the Demo:** [YouTube Explanation](https://www.youtube.com/watch?v=fUD5HcZhtQI)
-
----
-
-## Technology
-
-### System Architecture
-
-MindMate leverages a robust, multi-server architecture for performance, scalability, and security:
-
-- **Frontend Server**
-- **Backend Server**
-- **WebSocket Server**
-- **Email Server**
-
----
-
-### Tech Stack
-
-| Component      | Technologies & Tools                |
-|----------------|-------------------------------------|
-| **Frontend**   | React JS, Tailwind CSS              |
-| **Backend**    | Node.js, Express.js, Gemini (Gen AI), WebSockets, NodeMailer |
-| **Tools**      | Vercel, Render, MongoDB Atlas, Firebase |
-
----
-
-## Local Setup Guide
-
-### 1. Firebase Configuration
-
-1. **Create a new Firebase project.**
-2. **Add a Web App.**
-3. **Enable Authentication:**  
-   - Email/Password  
-   - Google (Gmail)
-4. **Retrieve `firebaseConfig`:**  
-   - Go to Project Settings > Web App.
-5. **Set up `.env` in Frontend:**  
-   - Copy `firebaseConfig` as per `.env.sample`.
-6. **Generate a Private Key:**  
-   - In Service Accounts, generate a new private key (JSON).
-7. **Set up `.env` in Backend:**  
-   - Add the private key as per `.env.sample`.
-8. **Complete remaining `.env` variables.**
-
----
-
-### 2. Gemini API Key
-
-- **Obtain your Gemini API key** from [ai.google.dev](https://ai.google.dev).
-- **Add to Backend `.env`** as per `.env.sample`.
-
----
-
-### 3. MongoDB Atlas
-
-- **Create a MongoDB Atlas account.**
-- **Get your connection URI.**
-- **Add to Backend `.env`** as per `.env.sample`.
-
----
-
-### 4. Server Connections
-
-- **WebSocket Server URL:** Add to Backend `.env` (e.g., `WEBSOCKET_SERVER=ws://localhost:8802`).
-- **Backend & WebSocket URLs:** Add to Frontend `.env` (e.g., `REACT_APP_API_LINK=http://localhost:8800`, `REACT_APP_WS_LINK=ws://localhost:8802`).
-
----
-
-### 5. Installation & Launch
-
-1. **Ensure Node.js is installed.**
-2. **Run `npm install` in each folder:**  
-   - Backend  
-   - Frontend  
-   - WebSocket Server
-3. **Launch Servers:**  
-   - Backend: `npm run dev` or `npm start`
-   - Frontend: `npm start`
-   - WebSocket Server: `node index.js`
-
----
-
+#### Tech stack
+- Frontend
+  - React JS
+  - Tailwind
+- Backend
+  - Node Js
+  - Express Js
+  - Gemini (Gen AI)
+  - Web Sockets
+  - Node Mailer
+- Tools
+  - Vercel
+  - Render
+  - Mongo DB
+  - Firebase
+ 
+## How to Setup Locally?
+### Firebase Setup
+  1. Setup a new Firebase project
+  2. Add a Web App
+  3. Go to Authentication -> Sign-in Method
+  4. Enable Email/Password, Gmail as Provider
+  5. Go to the Project Settings of Web App and get your ```firebaseConfig``` object
+  6. Create ```.env``` in Frontend folder and add ```firebaseConfig``` as per ```.env.sample``` file
+  7. In the service accounts section, Generate ```new private key``` (json object).
+  6. Create ```.env``` in Backend folder and add ```new private key``` as per ```.env.sample``` file
+  8. Fill rest ```.env``` as per ```.env.sample``` files
+### Gemini Setup
+  - Get your Gemini (by Google) ```API_KEY``` from (https://ai.google.dev) and put in Backend ```.env``` as per ```.env.sample```
+### MongoDB Setup
+  - Create a MongoDB Atlas (https://www.mongodb.com) account and get your ```URI``` and put in Backend ```.env``` as per ```.env.sample```
+### Create Connection amongst Servers
+  - Put Url for Websocketserver in Backend .env (ex- ```WEBSOCKET_SERVER=ws://localhost:8802```)
+  - Put Url for Backend and Websocketserver in Frontend .env (ex- ```REACT_APP_API_LINK=http://localhost:8800``` and ```REACT_APP_WS_LINK=ws://localhost:8802```)
+### Scripts to Install and Run
+  1. Need to have ```Node.js``` installed
+  2. Go to the Backend, Frontend, Websockerserver folder seperately and run for each ```npm install```
+  3. Run Backend by, ```npm run dev``` or ```npm start```
+  4. Run Frontend by, ```npm start```
+  5. Run Websocketserver by, ```node index.js```
+  
+    
 ## Website Preview
 
 #### HomePage 
@@ -124,10 +85,5 @@ MindMate leverages a robust, multi-server architecture for performance, scalabil
 #### AI Chat
 ![1538b7b1-41b3-4734-b74b-0092750f47df](https://github.com/algovengers/MindMate/assets/126336384/a2653f47-045b-41ce-951e-da36286240fc)
 
----
 
-## Ready to Make a Difference
 
-**MindMate** stands out for its seamless integration of AI, user-centric design, and comprehensive mental health support. Whether you’re a user seeking guidance or a developer looking to contribute, MindMate offers a powerful, accessible solution for mental well-being.
-
-> *All setup steps and tech stack details are presented for clarity and ease of use, with security and best practices in mind.*
