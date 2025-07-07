@@ -1,4 +1,3 @@
-```markdown
 # MindMate  
 ## Elevating Mental Health with AI
 
@@ -132,9 +131,3 @@ MindMate leverages a robust, multi-server architecture for performance, scalabil
 **MindMate** stands out for its seamless integration of AI, user-centric design, and comprehensive mental health support. Whether you’re a user seeking guidance or a developer looking to contribute, MindMate offers a powerful, accessible solution for mental well-being.
 
 > *All setup steps and tech stack details are presented for clarity and ease of use, with security and best practices in mind.*
-```
-
-You can copy and paste this directly into your `README.md` file for GitHub.  
-(Note: The images are referenced using GitHub image URLs for direct use in your repository.)
-
-Sources
